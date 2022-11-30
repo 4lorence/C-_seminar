@@ -4,20 +4,21 @@
 Console.WriteLine("enter number1:");
 int num1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("enter number1:");
+Console.WriteLine("enter number2:");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("enter number1:");
+Console.WriteLine("enter number3:");
 int num3 = Convert.ToInt32(Console.ReadLine());
 
-int mx = 
+int mx = num1;
 
 if(num2 > num1)
 {
-    int mx = num2;
+    mx = num2;
 }
- else if(num3 > mx)
+if(num3 > mx)
 {
-    int mx = num3;
+    mx = num3;
 }
-Console.WriteLine("max number="+ mx);
+Console.Write("max number=");
+Console.WriteLine(mx);
