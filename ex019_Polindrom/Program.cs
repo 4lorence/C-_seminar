@@ -1,7 +1,7 @@
 ﻿// Задача 19
 // Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
-Console.WriteLine("enter a five-digit number");
+Console.Write("enter a five-digit number: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
 int div = N /10000;
