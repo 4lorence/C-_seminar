@@ -7,24 +7,24 @@ int x = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("enter dot y");
 int y = Convert.ToInt32(Console.ReadLine());
 
-if (x > 0 $$ y > 0)
+if (x > 0 && y > 0)
 {
     Console.WriteLine("1 quater");
 }
 
-if (x < 0 $$ y > 0)
+if (x < 0 && y > 0)
 
 {
     Console.WriteLine("2 quater"); 
 }
 
-if (x < 0 $$ y < 0)
+if (x < 0 && y < 0)
 
 {
     Console.WriteLine("3 quater"); 
 }
 
-if (x > 0 $$ y < 0)
+if (x > 0 && y < 0)
 {
     Console.WriteLine("4 quater"); 
 }
