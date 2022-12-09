@@ -10,7 +10,8 @@ int rev1 = N / 10 % 10;
 int rev2 = N % 10;
 int nul = N / 10000;
         
-if (nul < 1 || nul > 9){
+if (nul < 1 || nul > 9)
+    {
     Console.WriteLine($"{N}Not 5-digit N");
     }
     else if  (num1 == rev2 && num2 == rev1)
