@@ -13,5 +13,5 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 double x = Math.Sqrt(Math.Pow(x2-x1,2)+Math.Pow(y1-y2,2));
 // double x = Math.Sqrt(Math.Pow(x2-x1,2));
 // double y = Math.Sqrt(Math.Pow(y1-y2,2));
-// double res = x + y;
+double res = x + y;
 Console.WriteLine(res);
