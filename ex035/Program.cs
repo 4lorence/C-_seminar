@@ -13,15 +13,6 @@ void FillArray(int[] array, int min, int max)
   }
 }
 
-void WriteArray(int[] array)
-{
-    for (int i = 0; i<array.Length; i++ )
-    {
-    Console.Write(array[i] + " ");
-  }
-  Console.WriteLine();
-}
-
 int count = 0;
 for(int i = 0; i<numbers.Length; i++ )
 {
@@ -31,4 +22,4 @@ for(int i = 0; i<numbers.Length; i++ )
     }
 }
 Console.WriteLine($"{string.Join(", ", numbers)}");
-Console.WriteLine($"Число элементов от 10 до 99: {count} \n");
+Console.WriteLine($" -> number of elements from 10 to 99: {count} \n");
