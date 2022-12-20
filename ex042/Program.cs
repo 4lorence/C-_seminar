@@ -25,13 +25,13 @@ int ReadInt(string msg)
     return Convert.ToInt32(Console.ReadLine());
 }
 int num = ReadInt("Enter N:");
-
-
-void PrintBinaryView(int num)
-{
-    if (num <= 0) return;
-    PrintBinaryView(num/2);
-}
 int[] array = new int[num];
+
+
+void PrintBinaryView(int x)
+{
+    if (x <= 0) return;
+    PrintBinaryView(x/2);
+}
 PrintBinaryView(array);
 Console.WriteLine(string.Join(",",array));
